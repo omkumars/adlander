@@ -1,0 +1,56 @@
+.frame-43,
+.frame-43 * {
+    box-sizing: border-box;
+}
+
+.frame-43 {
+    display: flex;
+    flex-direction: row;
+    gap: 7.5px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+    /* Ensures the image doesn't exceed the container width */
+    height: auto;
+    aspect-ratio: 1 / 1;
+}
+
+.ellipse-14 {
+    background: linear-gradient(to left,
+            rgba(255, 255, 255, 0.2),
+            rgba(255, 255, 255, 0.2)),
+        radial-gradient(closest-side,
+            rgba(255, 255, 255, 0.2) 0%,
+            rgba(118, 173, 255, 0.2) 41.67%,
+            rgba(40, 18, 254, 0.2) 60.67%,
+            rgba(40, 18, 254, 0.2) 75.67%,
+            rgba(144, 59, 255, 0.2) 89.17%);
+    border-radius: 50%;
+    flex-shrink: 0;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    position: relative;
+}
+
+.ellipse-13 {
+    border-radius: 50%;
+    width: 66.67%;
+    height: 66.67%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-16 {
+    width: 66.67%;
+    height: 66.67%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}

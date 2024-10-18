@@ -1,0 +1,7 @@
+:root {
+  --lightprimary-statesprimaryfocusedbrush: rgba(89, 70, 210, 0.12);
+  --lightprimary-statesprimaryhoverbrush: rgba(89, 70, 210, 0.08);
+  --lightprimary-statesprimarypressedbrush: rgba(89, 70, 210, 0.12);
+  --lightprimaryprimarycolor: rgba(89, 70, 210, 1);
+  --lightsurface-variantsurfacevariantcolor: rgba(243, 239, 245, 1);
+}
